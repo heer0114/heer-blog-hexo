@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="300a4280-5a73-4561-8b94-53aaf98c9c42" name="更改" comment="优化显示效果，修改导航栏样式">
-      <change beforePath="$PROJECT_DIR$/.github/dependabot.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.redefine.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/draft.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/page.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/post.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/hello-world.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/使用HEXO搭建自己的博客.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/categories/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/tags/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
-    </list>
+    <list default="true" id="300a4280-5a73-4561-8b94-53aaf98c9c42" name="更改" comment="优化显示效果，修改导航栏样式" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +59,7 @@
       <updated>1680632819674</updated>
       <workItem from="1681713857343" duration="27498000" />
       <workItem from="1681749911249" duration="23385000" />
-      <workItem from="1681797678850" duration="953000" />
+      <workItem from="1681797678850" duration="2589000" />
     </task>
     <task id="LOCAL-00001" summary="添加文档">
       <created>1681751966586</created>
