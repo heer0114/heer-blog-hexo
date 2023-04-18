@@ -5,15 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="300a4280-5a73-4561-8b94-53aaf98c9c42" name="更改" comment="优化显示效果，修改导航栏样式">
-      <change afterPath="$PROJECT_DIR$/source/java/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.redefine.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.redefine.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_posts/hello-world.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/hello-world.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_posts/使用HEXO搭建自己的博客.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/使用HEXO搭建自己的博客.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/java/index.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,11 +41,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/heer/ClientProjects/heer-blog-hexo/themes/redefine/source/images",
+    "last_opened_file_path": "/Users/heer/ClientProjects/heer-blog-hexo/themes/redefine/source/css/layout",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -51,6 +59,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/themes/redefine/source/css/layout" />
+      <recent name="$PROJECT_DIR$/themes/redefine/layout" />
       <recent name="$PROJECT_DIR$/themes/redefine/source/images" />
     </key>
   </component>
@@ -64,7 +74,7 @@
       <updated>1680632819674</updated>
       <workItem from="1681713857343" duration="27498000" />
       <workItem from="1681749911249" duration="23385000" />
-      <workItem from="1681797678850" duration="12986000" />
+      <workItem from="1681797678850" duration="30013000" />
     </task>
     <task id="LOCAL-00001" summary="添加文档">
       <created>1681751966586</created>

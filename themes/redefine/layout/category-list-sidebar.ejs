@@ -1,0 +1,14 @@
+<div class="sidebar-category-list-container">
+    <div class="tagcloud-header">
+        <div style="font-size: 1em;padding-left: 11px;">
+            <i class="fa-solid fa-folder"></i>
+            <%- __('categories') %>
+        </div>
+    </div>
+    <div class="sidebar-category-list-content">
+        <%- list_categories(site.categories, {
+            class: 'sidebar-all-category',
+            depth: 2
+        }) %>
+    </div>
+</div>

@@ -33,7 +33,7 @@ defaults:
 # COLORS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 colors:
   #Primary color
-  primary: "#A31F34"
+  primary: "#e0888a99"
   # Secondary color (beta)
   secondary:
 # COLORS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -203,12 +203,7 @@ home:
   sidebar:
     enable: true # Whether to enable sidebar
     position: left # Sidebar position. left, right
-    first_item: info # First item in sidebar. menu, info
-    announcement: '这是一个公告'# Announcement text
-    links:
-      Java:
-        path: /java
-        icon: fa-brands fa-java fa-bounce
+    announcement: # Announcement text
     # ...... # you can add more
   # Article date format
   article_date_format: auto # auto, relative, YYYY-MM-DD, YYYY-MM-DD HH:mm:ss etc.
