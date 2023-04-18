@@ -167,7 +167,7 @@ navbar:
       icon: fa-regular fa-archive # can be empty
     Categories:
       path: /categories/ #链接
-      icon: fa-solid fa-folder #图标
+      icon: fa-solid fa-book-open-cover #图标
     Tags:
       icon: fa-solid fa-tags #图标
       path: /tags/ #链接

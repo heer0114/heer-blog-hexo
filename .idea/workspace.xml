@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="300a4280-5a73-4561-8b94-53aaf98c9c42" name="更改" comment="优化显示效果，修改导航栏样式" />
+    <list default="true" id="300a4280-5a73-4561-8b94-53aaf98c9c42" name="更改" comment="优化显示效果，修改导航栏样式">
+      <change beforePath="$PROJECT_DIR$/_config.redefine.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.redefine.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +72,7 @@
       <workItem from="1681713857343" duration="27498000" />
       <workItem from="1681749911249" duration="23385000" />
       <workItem from="1681797678850" duration="32249000" />
-      <workItem from="1681837865278" duration="11140000" />
+      <workItem from="1681837865278" duration="13257000" />
     </task>
     <task id="LOCAL-00001" summary="添加文档">
       <created>1681751966586</created>

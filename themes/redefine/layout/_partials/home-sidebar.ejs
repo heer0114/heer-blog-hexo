@@ -25,23 +25,18 @@
                 </a>
             </div>
         </div>
-        <% if (theme.home.sidebar.links !== null || theme.home.sidebar.announcement !== null) { %>
-            <div class="sidebar-links"
-            <% if (theme.home.sidebar.links !== null || theme.home.sidebar.announcement !== null) { %> marginTop
-                    <% } %>
-            >
-                <div class="site-info">
-                    <div class="site-name"><%= theme.info.title || config.title %></div>
-                    <% if (theme.home.sidebar.announcement !== null && theme.home.sidebar.links !== null) { %>
-                        <div class="announcement">
-                            <%- theme.home.sidebar.announcement %>
-                        </div>
-                    <% } %>
-                </div>
-                <% if (site.categories.length > 0) { %>
-                    <%- partial('category-list-sidebar') %>
+        <div class="sidebar-items" marginTop>
+            <div class="site-info">
+                <div class="site-name"><%= theme.info.title || config.title %></div>
+                <% if (theme.home.sidebar.announcement !== null && theme.home.sidebar.links !== null) { %>
+                    <div class="announcement">
+                        <%- theme.home.sidebar.announcement %>
+                    </div>
                 <% } %>
             </div>
-        <% } %>
+            <% if (site.categories.length > 0) { %>
+                <%- partial('category-list-sidebar') %>
+            <% } %>
+        </div>
     </div>
 </div>
