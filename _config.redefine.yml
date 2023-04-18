@@ -103,7 +103,7 @@ home_banner:
   title: 欢迎访问 HEER LIU 的知识空间
   # Home banner subtitle
   subtitle:
-    text: [ "分享知识是最高效的学习方法之一","纸上得来终觉浅，觉知此事要躬行。" ] # subtitle text, array
+    text: [ "分享知识是最高效的学习方法之一", "纸上得来终觉浅，觉知此事要躬行。", "千里之行,始于足下。" ] # subtitle text, array
     hitokoto: # 一言配置
       enable: false # Whether to enable hitokoto
       api: https://v1.hitokoto.cn # API URL, can add types, see https://developer.hitokoto.cn/sentence/#%E5%8F%A5%E5%AD%90%E7%B1%BB%E5%9E%8B-%E5%8F%82%E6%95%B0
@@ -115,8 +115,8 @@ home_banner:
     smart_backspace: true # Whether to smart backspace
   # Color of home banner text
   text_color:
-    light: "#fff" # light mode
-    dark: "#d1d1b6" # dark mode
+    light: "#e8e8e8" # light mode
+    dark: "#e8e8e8" # dark mode
   # Specific style of the text
   text_style:
     # Title font size
@@ -154,17 +154,9 @@ navbar:
   auto_hide: false
   # Navbar background color
   color:
-    left: "#f78736" #left side
-    right: "#367df7"  #right side
+    left: "#ff9393" #left side
+    right: "#9bc0ff"  #right side
     transparency: 80 #percent (10-99)
-  tags:
-    Tags: #取名随意
-      icon: fa-solid fa-tags #图标
-      path: /tags/ #链接
-  categories:
-    Categories: #取名随意
-      icon: fa-solid fa-folder #图标
-      path: /categories/ #链接
   # Navbar links
   links:
     Home:
