@@ -1,7 +1,11 @@
 ---
 title: 使用HEXO搭建自己的博客
 date: 2019-01-18 11:39:46
-tags: HEXO
+tags:
+  - Java
+categories:
+  - 我是一级分类
+  - 我是二级分类_Java
 ---
 
 [^_^]: # (介绍建立个人博客的优势。)
