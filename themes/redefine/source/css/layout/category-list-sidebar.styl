@@ -6,7 +6,7 @@
     //flex-wrap wrap
 
     li.sidebar-all-category-list-item {
-      font-size .9rem
+      font-size .8rem
       margin-bottom 15px
       box-shadow var(--redefine-box-shadow-flat)
       padding 10px
@@ -14,6 +14,15 @@
       margin 10px
       transition all 0.2s ease
       cursor pointer
+
+      .sidebar-all-category-list-link {
+
+        &::before {
+          padding-right 5px
+          font-family "Font Awesome 6 Pro"
+          content "\f07c";
+        }
+      }
 
       &:hover,
       &:focus {
@@ -31,11 +40,17 @@
       }
 
       span.sidebar-all-category-list-count {
-        color var(--third-text-color)
-        margin-left 5px
+        display inline-flex
+        color var(--third-text-color);
+        margin-left 3px
         background-color var(--third-background-color)
-        padding 2px 5px
-        border-radius $redefine-border-radius-small
+        border-radius 50%
+        font-size .4rem
+        height 14px
+        width 14px
+        text-align center
+        justify-content center
+        align-items center
       }
 
       ul.sidebar-all-category-list-child {
@@ -44,10 +59,6 @@
         margin-top 15px
 
         li {
-
-          &::before {
-            content '- '
-          }
 
           margin-bottom 10px
 

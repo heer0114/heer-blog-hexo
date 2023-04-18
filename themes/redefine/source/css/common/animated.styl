@@ -1,8 +1,8 @@
 transition-g() {
-  transition-property color, background, box-shadow, border-color
-  transition-delay 0s, 0s, 0s, 0s
-  transition-duration 0.2s, 0.2s, 0.2s, 0.2s
-  transition-timing-function ease, ease, ease, ease
+  transition-property background, box-shadow, border-color
+  transition-delay 0s, 0s, 0s
+  transition-duration 0.2s, 0.2s, 0.2s
+  transition-timing-function ease, ease, ease
 }
 
 transition-t(property, delay, duration, function) {
@@ -90,7 +90,7 @@ transition-t(property, delay, duration, function) {
     background-color var(--second-text-color)
     visibility hidden
     transform scaleX(0)
-    transition-t("visibility transform", "0, 0", "0.2, 0.2", "ease-in-out, ease-in-out")
+    transition-t("visibility transform", "0, 0", "0.5, 0.5", "ease-in-out, ease-in-out")
   }
 
 
