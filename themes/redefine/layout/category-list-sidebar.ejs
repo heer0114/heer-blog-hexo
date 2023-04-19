@@ -8,7 +8,9 @@
     <div class="sidebar-category-list-content">
         <%- list_categories(site.categories, {
             class: 'sidebar-all-category',
-            depth: 3
+            depth: 3,
+            orderby: "name",
+            order: 1
         }) %>
     </div>
 </div>

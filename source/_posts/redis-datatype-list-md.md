@@ -4,7 +4,7 @@ date: 2019-03-20 19:40:10
 tags:
   - Redis
 categories:
-  - 编程知识
+  - 03 编程知识
   - Redis
   - 基础知识
   - 数据类型

@@ -5,7 +5,7 @@ tags:
   - Java
   - Java 对象
 categories:
-  - 编程知识
+  - 03 编程知识
   - Java
   - JVM
   - Java 对象
