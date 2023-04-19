@@ -94,7 +94,7 @@ fontawesome: # Pro v6.2.1
 # HOME BANNER >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 home_banner:
   # Whether to enable home banner
-  enable: true
+  enable: false
   # Home banner image
   image:
     light: /images/room_light.webp # light mode
