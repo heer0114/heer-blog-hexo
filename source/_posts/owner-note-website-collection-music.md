@@ -8,9 +8,9 @@ categories:
   - 个人笔记
   - 收藏
   - 音频音乐
-excerpt: "收藏一些好用的网站地址"
+excerpt: "收藏一些好用的音乐网站"
 # 首页缩略图
-thumbnail:
+thumbnail: 
 # 文章页头图
 banner:
 ---
