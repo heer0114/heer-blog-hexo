@@ -6,7 +6,7 @@
 // ========================================================================================
 //                                           LAYOUT
 // ========================================================================================
-$navbar-height = 70px;                                           // navbar height
+$navbar-height = 88px;                                            // navbar height
 $navbar-shrink-height = $navbar-height * 0.72;                   // navbar shrink height
 $scroll-progress-bar-height = 2px;                               // scroll progress bar height
 $main-content-width = 80%;                                       // main content width (PC)
@@ -105,6 +105,8 @@ $nav-color-bg = linear-gradient(120deg, $nav-color-1 0%, $nav-color-2 100%)
 // light mode color
 // ========================================================================================
 $background-color = #fff
+$navbar-drawer-background-color = rgba(255, 255, 255, 0.8)
+$search-background-color = rgba(255, 255, 255, 0.5)
 $background-color-transparent = rgba(255, 255, 255, 0.6)
 $second-background-color = darken($background-color, 2%)
 $third-background-color = darken($background-color, 3%)
@@ -150,6 +152,8 @@ $home-banner-icons-container-background-color = rgba(255, 255, 255, 0.3)
 // ========================================================================================
 $dark-primary-color = $primary-color
 $dark-background-color = #202124
+$navbar-drawer-dark-background-color = rgba(0, 0, 0, 0.8)
+$search-dark-background-color = rgba(0, 0, 0, 0.5)
 $dark-background-color-transparent = rgba(32, 33, 36, 0.4)
 $dark-second-background-color = lighten($dark-background-color, 2%)
 $dark-third-background-color = lighten($dark-background-color, 4.5%)
@@ -227,6 +231,8 @@ $default-font-weight = 400
 // ========================================================================================
 root-color(mode) {
   --background-color mode == 'light' ? $background-color : $dark-background-color
+  --navbar-drawer-background-color mode == 'light' ? $navbar-drawer-background-color : $navbar-drawer-dark-background-color
+  --search-background-color mode == 'light' ? $search-background-color : $search-dark-background-color
   --background-color-transparent mode == 'light' ? $background-color-transparent : $dark-background-color-transparent
   --second-background-color mode == 'light' ? $second-background-color : $dark-second-background-color
   --third-background-color mode == 'light' ? $third-background-color : $dark-third-background-color

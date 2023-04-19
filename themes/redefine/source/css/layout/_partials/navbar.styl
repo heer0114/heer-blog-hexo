@@ -150,16 +150,16 @@ $logo-image-box-width = 46px
               margin-left 0
             }
 
-            a .fa-chevron-down{
+            a .fa-chevron-down {
               transform rotate(0deg)
               transition transform 0.3s ease
             }
 
-            &:hover a .fa-chevron-down{
+            &:hover a .fa-chevron-down {
               transform rotate(180deg)
             }
 
-            &:hover .has-dropdown{
+            &:hover .has-dropdown {
               &::after {
                 display none !important
               }
@@ -184,7 +184,6 @@ $logo-image-box-width = 46px
             }
 
 
-
             &.search {
               font-size $desktop-search-icon-font-size
               margin-left 26px
@@ -195,7 +194,7 @@ $logo-image-box-width = 46px
 
             }
 
-            .sub-menu{
+            .sub-menu {
               position absolute
               right auto
               left 50%
@@ -205,7 +204,7 @@ $logo-image-box-width = 46px
               margin-top 0px
               width auto
               text-align: center;
-              list-style:none;
+              list-style: none;
               padding 0 10px
               border-radius $redefine-border-radius-large
               //visibility hidden
@@ -236,7 +235,7 @@ $logo-image-box-width = 46px
 
         }
 
-        .navbar-list .navbar-item:hover .sub-menu{
+        .navbar-list .navbar-item:hover .sub-menu {
           //visibility visible
           max-height 500px
           transition-t("all", "0", "0.2", "ease")
@@ -322,6 +321,9 @@ $logo-image-box-width = 46px
     }
   }
 
+   > .navbar-drawer{
+
+  }
 
   .navbar-drawer {
     width 100%
@@ -332,7 +334,10 @@ $logo-image-box-width = 46px
     transform scaleY(0)
     transform-origin top
     z-index $z-index-2
-    background var(--background-color)
+    backdrop-filter blur(10px)
+    -webkit-backdrop-filter blur(10px)
+    border-radius 18px
+    background-color var(--navbar-drawer-background-color)
     transition-t("transform", "0", "0.38", "ease")
 
     .navbar-drawer-show & {
@@ -372,16 +377,16 @@ $logo-image-box-width = 46px
           font-family: "Optima Bold", sans-serif
         }
 
-        a .fa-chevron-down{
+        a .fa-chevron-down {
           transform rotate(0deg)
           transition transform 0.3s ease
         }
 
-        &:hover a .fa-chevron-down{
+        &:hover a .fa-chevron-down {
           transform rotate(180deg)
         }
 
-        &:hover .has-dropdown{
+        &:hover .has-dropdown {
           &::after {
             display none !important
           }
@@ -411,7 +416,7 @@ $logo-image-box-width = 46px
         }
       }
 
-      .sub-menu{
+      .sub-menu {
         position relative
         margin-top 8px
         width 100%
@@ -435,6 +440,7 @@ $logo-image-box-width = 46px
     visibility hidden
     opacity 0
     transition-t("transform, opacity", "0, 0", "0.38, 0.38", "ease, ease")
+    border-radius 18px
 
     .navbar-drawer-show & {
       visibility visible

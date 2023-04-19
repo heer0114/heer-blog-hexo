@@ -26,8 +26,10 @@ $icon-size = 1.2rem
 
 
   .search-popup {
-    background var(--background-color)
-    border-radius 5px
+    background var(--search-background-color)
+    border-radius 18px
+    backdrop-filter blur(10px)
+    -webkit-backdrop-filter blur(10px)
     height 80%
     width 70%
     margin auto
@@ -44,9 +46,10 @@ $icon-size = 1.2rem
     }
 
     .search-header {
-      background var(--fourth-text-color)
-      border-top-left-radius 2px
-      border-top-right-radius 2px
+      background var(--search-background-color)
+      //border-top-left-radius 2px
+      //border-top-right-radius 2px
+      border-radius 18px
       display flex
       padding 10px
 
