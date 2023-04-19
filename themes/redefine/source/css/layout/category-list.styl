@@ -15,9 +15,17 @@
         box-shadow var(--redefine-box-shadow-flat)
         padding 10px
         border-radius $redefine-border-radius-medium
-        margin  10px
+        margin 10px
         transition all 0.2s ease
         cursor pointer
+
+        .all-category-list-link {
+          &::before {
+            padding-right 5px
+            font-family "Font Awesome 6 Pro"
+            content "\e0c0";
+          }
+        }
 
         &:hover,
         &:focus {
@@ -34,14 +42,19 @@
           transform scale(0.95)
         }
 
-
-
         span.all-category-list-count {
+          display inline-flex
+          display -webkit-inline-flex
           color var(--third-text-color)
-          margin-left  5px
+          margin-left 3px
           background-color var(--third-background-color)
-          padding 2px 5px
-          border-radius $redefine-border-radius-small
+          border-radius 50%
+          font-size 1rem
+          height 16px
+          width 16px
+          text-align center
+          justify-content center
+          align-items center
         }
 
 
@@ -51,11 +64,6 @@
           margin-top 15px
 
           li {
-
-            &::before {
-              content '- '
-            }
-
             margin-bottom 10px
 
             &:last-child {
