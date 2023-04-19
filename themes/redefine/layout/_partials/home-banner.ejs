@@ -6,6 +6,10 @@
              style="font-family: '<%- theme.home_banner.custom_font.family %>', sans-serif; !important;"
                 <% } %>
         >
+
+            <div class="avatar">
+                <%- image_tag(url_for(theme.defaults.avatar)) %>
+            </div>
             <%- theme.home_banner.title || theme.style.first_screen.description || config.description %>
             <%# theme.style.first_screen.description is deprecated %>
             <% if (theme.home_banner.subtitle.length !== 0) { %>

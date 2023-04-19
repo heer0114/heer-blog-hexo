@@ -18,6 +18,7 @@
         margin 10px
         transition all 0.2s ease
         cursor pointer
+        transform scaleX(1) scaleY(1)
 
         .all-category-list-link {
           &::before {
@@ -29,13 +30,17 @@
 
         &:hover,
         &:focus {
-          box-shadow var(--redefine-box-shadow-flat-hover) !important
-          background-color var(--primary-color)
-          transition all 0.2s ease
+          //box-shadow var(--redefine-box-shadow-flat-hover) !important
+          ////background-color var(--primary-color)
+          //transition all 0.2s ease
 
-          a {
-            color var(--background-color)
-          }
+          transform scaleX(1.05) scaleY(1.05)
+          box-shadow var(--heer-box-shadow-flat-hover) !important
+          transition all .3s cubic-bezier(0.4, 0, 1, 1)
+
+          //a {
+          //  color var(--background-color)
+          //}
         }
 
         &:active {

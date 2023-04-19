@@ -42,12 +42,13 @@ if (hexo-config('page_templates.tags_style') == 'cloud') {
         .tag-list {
           a {
             filter blur(0px) !important
+            -webkit-backdrop-filter blur(0px) !important
             transition filter 0.3s ease
           }
         }
       }
-      
-      
+
+
       // 定义数量是否显示
       .tag-list[data-show-value] a::after {
         content: attr(data-weight);
@@ -87,7 +88,7 @@ if (hexo-config('page_templates.tags_style') == 'cloud') {
             &[data-weight="3"] { --blur: 0.8px; }
             &[data-weight="4"] { --blur: 0.4px; }
             &[data-weight="5"] { --blur: 0; }
-            
+
             font-size 1.4rem
             opacity var(--opacity)
             padding 0.9rem 1.4rem
@@ -99,27 +100,29 @@ if (hexo-config('page_templates.tags_style') == 'cloud') {
             margin 10px
             color var(--default-text-color)
             filter blur(var(--blur))
+            -webkit-filter blur(var(--blur))
             transform scaleX(1) scaleY(1)
             background-color var(--default-background-color)
             transition transform 0.2s ease,filter 0.3s ease, color 0.2s ease, background-color 0.2s ease
-            
+
             .fa-hashtag {
               margin-right 5px
               opacity .3
             }
 
-
-
             &:hover {
-              transform scaleX(1.05) scaleY(1.05)
-              box-shadow var(--redefine-box-shadow-hover)
-              background-color var(--primary-color)
-              color var(--invert-text-color)
-              transition transform 0.3s ease, background-color 0.3s ease, color 0.3s ease
-              
+              transform scaleX(1.08) scaleY(1.08)
+              //box-shadow var(--redefine-box-shadow-hover)
+              //background-color var(--primary-color)
+              //color var(--invert-text-color)
+              //transition transform 0.3s ease, background-color 0.3s ease, color 0.3s ease
+
+              box-shadow var(--heer-box-shadow-flat-hover) !important
+              transition all .3s cubic-bezier(0.4, 0, 1, 1)
+
               .fa-hashtag {
                 margin-right 5px
-                color var(--invert-text-color)
+                //color var(--invert-text-color)
                 opacity .4
               }
             }
@@ -130,7 +133,7 @@ if (hexo-config('page_templates.tags_style') == 'cloud') {
             }
           }
         }
-        
+
       }
       @media (prefers-reduced-motion) {
         .tag-list * {
