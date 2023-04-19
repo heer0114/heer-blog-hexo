@@ -83,9 +83,9 @@ fontawesome: # Pro v6.2.1
   # Thin version
   thin: false
   # Light version
-  light: false
+  light: ture
   # Duotone version
-  duotone: false
+  duotone: true
   # Sharp Solid version
   sharp_solid: false
 # FONTAWESOME <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -94,7 +94,7 @@ fontawesome: # Pro v6.2.1
 # HOME BANNER >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 home_banner:
   # Whether to enable home banner
-  enable: false
+  enable: true
   # Home banner image
   image:
     light: /images/room_light.webp # light mode

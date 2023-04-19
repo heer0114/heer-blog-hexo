@@ -4,13 +4,13 @@
 
 # Site
 # 网站标题
-title: Hexo
+title: 'heer-blog'
 # 网站副标题
-subtitle: ''
+subtitle: 'heer-blog'
 # 网站描述
-description: ''
+description: 'HEER的知识空间'
 # 网站的关键词，支持多个关键词
-keywords:
+keywords: Java,Blog,Redis,MySQL,知识,BUG
 # 你的名字
 author: Heer Liu
 # 网站使用的语言
