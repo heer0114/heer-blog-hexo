@@ -21,7 +21,7 @@ if (Global.theme_config.home_banner.subtitle.hitokoto.enable) {
         backDelay: usrBackDelay || 1500, //后退延迟
         loop: usrLoop || false, //是否循环
         startDelay: usrStartDelay || 500, //起始时间
-        // cursorChar: '♡', // 光标
+        cursorChar: '♡', // 光标
       });
     }
 
@@ -48,7 +48,7 @@ if (Global.theme_config.home_banner.subtitle.hitokoto.enable) {
         backDelay: usrBackDelay || 1500, //后退延迟
         loop: usrLoop || false, //是否循环
         startDelay: usrStartDelay || 500, //起始时间
-        // cursorChar: '♡', // 光标
+        cursorChar: '♡', // 光标
       });
     }
   };

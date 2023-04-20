@@ -1,9 +1,9 @@
 $temp-title-fs = hexo-config('home_banner.text_style.title_size')
-$title-font-size = $temp-title-fs ? convert($temp-title-fs) : 2.8rem
+$title-font-size = $temp-title-fs ? convert($temp-title-fs):2.8rem
 $temp-subtitle-fs = hexo-config('home_banner.text_style.subtitle_size')
-$subtitle-font-size = $temp-subtitle-fs ? convert($temp-subtitle-fs) : 1.4rem
+$subtitle-font-size = $temp-subtitle-fs ? convert($temp-subtitle-fs):1.4rem
 $temp-line-height = hexo-config('style.first_screen.line_height')
-$line-height = $temp-line-height ? $temp-line-height : 1.2
+$line-height = $temp-line-height ? $temp-line-height:1.2
 $home-banner-icon-size = 1.6rem
 
 @import "../../common/variables"
@@ -34,6 +34,10 @@ $home-banner-icon-size = 1.6rem
       line-height $line-height
       text-align center
       color var(--home-banner-text-color)
+
+      .avatar > img {
+        height 22vh
+      }
 
       p {
         margin 0
