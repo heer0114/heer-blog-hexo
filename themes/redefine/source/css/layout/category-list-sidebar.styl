@@ -11,7 +11,7 @@
       margin-top 10px
       transition all 0.2s ease
       cursor pointer
-      transform scaleX(1) scaleY(1)
+      animation ani01 1.5s
 
       .sidebar-all-category-list-link {
 
@@ -24,9 +24,10 @@
 
       &:hover,
       &:focus {
-        transform scaleX(1.05) scaleY(1.05)
-        box-shadow var(--heer-box-shadow-flat-hover) !important
-        transition all .3s cubic-bezier(0.4, 0, 1, 1)
+        transform scaleX(1.02) scaleY(1.02)
+        //box-shadow 0 8px 10px rgba(0, 0, 0, 0.2)
+        box-shadow var(--redefine-box-shadow-flat-hover) !important
+        transition all .2s cubic-bezier(0.4, 0, 1, 1)
       }
 
       &:active {
@@ -54,9 +55,24 @@
         }
       }
 
-      ul:last-child > li > ul:last-child {
-        text-align center
-      }
+      //ul:last-child > li > ul:last-child {
+      //  text-align center
+      //}
     }
+  }
+
+  ul.sidebar-all-category-list > li > a {
+    font-size 1.2em !important
+  }
+}
+
+@keyframes ani01 {
+  0% {
+    opacity: 0;
+    transform: translate(20px, 0)
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0)
   }
 }

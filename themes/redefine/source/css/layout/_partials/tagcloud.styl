@@ -105,11 +105,6 @@ if (hexo-config('page_templates.tags_style') == 'cloud') {
             background-color var(--default-background-color)
             transition transform 0.2s ease,filter 0.3s ease, color 0.2s ease, background-color 0.2s ease
 
-            .fa-hashtag {
-              margin-right 5px
-              opacity .3
-            }
-
             &:hover {
               transform scaleX(1.08) scaleY(1.08)
               //box-shadow var(--redefine-box-shadow-hover)
@@ -117,14 +112,9 @@ if (hexo-config('page_templates.tags_style') == 'cloud') {
               //color var(--invert-text-color)
               //transition transform 0.3s ease, background-color 0.3s ease, color 0.3s ease
 
-              box-shadow var(--heer-box-shadow-flat-hover) !important
+              box-shadow var(--redefine-box-shadow-flat-hover) !important
               transition all .3s cubic-bezier(0.4, 0, 1, 1)
 
-              .fa-hashtag {
-                margin-right 5px
-                //color var(--invert-text-color)
-                opacity .4
-              }
             }
 
             &:active {

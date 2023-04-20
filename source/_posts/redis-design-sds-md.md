@@ -5,7 +5,6 @@ tags:
   - Redis
   - SDS
 categories:
-  - 03 编程知识
   - Redis
   - 设计实现
   - 数据结构与对象

@@ -31,7 +31,7 @@ defaults:
 # COLORS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 colors:
   #Primary color
-  primary: "#64c9ff80"
+  primary: "#fdcacb"
   # Secondary color (beta)
   secondary:
 # COLORS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -66,7 +66,7 @@ global:
   # Website counter (powered by https://busuanzi.ibruce.info/)
   busuanzi_counter:
     enable: true # enable website counter or not
-    site_pv: false # site page view
+    site_pv: true # site page view
     site_uv: false # site unique visitor
     post_pv: false # post page view
   # Whether to enable PJAX
