@@ -278,8 +278,8 @@ root-color(mode) {
   --redefine-box-shadow-flat : var(--shadow-color-2) 0px 1px 4px 0px, var(--shadow-color-1) 0px 0px 0px 1px
   //--redefine-box-shadow-flat-hover : var(--shadow-color-2) 0px 1px 4px 0px, var(--shadow-color-1) 0px 0px 0px 1px, var(--shadow-color-1) 0px 0px 0px 1px inset
 
-  --redefine-box-shadow-hover mode == 'light' ?  0 5px 10px rgba(0, 0, 0, 0.3): 0 5px 10px rgba(255, 255, 255, 0.8)
-  --redefine-box-shadow-flat-hover mode == 'light' ? 0 5px 10px rgba(0, 0, 0, 0.3): 0 5px 10px rgba(255, 255, 255, 0.8)
+  --redefine-box-shadow-hover mode == 'light' ?  0 4px 10px rgba(0, 0, 0, 0.3): 0 3px 6px rgba(255, 255, 255, 0.5)
+  --redefine-box-shadow-flat-hover mode == 'light' ? 0 4px 10px rgba(0, 0, 0, 0.3): 0 3px 6px rgba(255, 255, 255, 0.5)
   --mermaid-theme : mode == 'light' ? $mermaid-theme : $dark-mermaid-theme
 
 }
