@@ -1,10 +1,12 @@
 ---
-title: Java环境在Windows、Linux、MacOS中的配置方法
+title: Java环境配置（JDK1.8）
 tags:
   - Java
+  - Java 环境配置
 categories:
   - Java
   - Java 基础
+  - Java 环境配置
 #excerpt: Java 开发环境在主流操作系统上的配置。
 abbrlink: 4c8e8e1b
 date: 2019-01-20 19:30:10
