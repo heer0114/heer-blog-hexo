@@ -97,8 +97,8 @@ home_banner:
   enable: true
   # Home banner image
   image:
-    light: /images/room_light.webp # light mode
-    dark: /images/room_dark.webp # dark mode
+    light: /images/bg.svg # light mode
+    dark: /images/bg.svg # dark mode
   # Home banner title
   title: 欢迎访问 HEER LIU 的知识空间
   # Home banner subtitle
@@ -276,7 +276,7 @@ articles:
     # Max number of articles to display
     limit: 3
     # Placeholder image
-    placeholder: /images/room_light.webp
+    placeholder: /images/bg.svg
     # Skip directory
     skip_dirs: [ ]
 # ARTICLE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end

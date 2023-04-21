@@ -77,7 +77,7 @@ Java是一种广泛使用的编程语言，在进行 Java 程序编写之前，�
 
 1. 打开一个终端窗口，输入以下命令，新建 .bash_profile 文件：
 
-   ```
+   ```shell
    vi ~/.bash_profile
    ```
 

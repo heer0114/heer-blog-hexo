@@ -95,8 +95,6 @@ home_banner:
   enable: true
   # Home banner image
   image:
-#    light: /images/room_light.webp # light mode
-#    dark: /images/room_dark.webp # dark mode
     light: /images/bg.svg # light mode
     dark: /images/bg.svg # dark mode
   # Home banner title

@@ -66,7 +66,7 @@ banner:
 
    通过<i class="fa-solid fa-rectangle-terminal"></i>`终端`，进入下载好的Java 17安装包所在的目录，执行以下命令进行安装：
 
-   ```
+   ```shell
    tar -zxvf jdk-17_linux-x64_bin.tar.gz
    ```
 
@@ -74,14 +74,14 @@ banner:
 
    (1) 在终端中编辑`/etc/profile`文件，添加如下内容：
 
-   ```
+   ```shell
    export JAVA_HOME=/usr/local/jdk-17
    export PATH=$PATH:$JAVA_HOME/bin
    ```
 
    (2) 然后执行以下命令使修改后的环境变量生效：
 
-   ```
+   ```shell
    source /etc/profile
    ```
 
@@ -132,7 +132,7 @@ banner:
 
    (3) 在根据`(2)`步骤中打开的文件中，加入如下信息：
 
-   ```
+   ```shell
    export PATH="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/bin:$PATH"
    ```
 
