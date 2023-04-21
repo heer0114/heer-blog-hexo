@@ -24,6 +24,7 @@ timezone: 'Asia/Shanghai'
 url: https://blog.heer.love
 # 文章的 永久链接 格式
 permalink: posts/:abbrlink/
+#permalink: :year/:month/:day/:title/
 # 永久链接中各部分的默认值
 permalink_defaults:
 # 改写 permalink 的值来美化 URL
