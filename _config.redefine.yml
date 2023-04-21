@@ -31,7 +31,7 @@ defaults:
 # COLORS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 colors:
   #Primary color
-  primary: "#fdcacb"
+  primary: "#ff6b81"
   # Secondary color (beta)
   secondary:
 # COLORS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -95,8 +95,10 @@ home_banner:
   enable: true
   # Home banner image
   image:
-    light: /images/room_light.webp # light mode
-    dark: /images/room_dark.webp # dark mode
+#    light: /images/room_light.webp # light mode
+#    dark: /images/room_dark.webp # dark mode
+    light: /images/bg.svg # light mode
+    dark: /images/bg.svg # dark mode
   # Home banner title
   title: 欢迎访问 HEER LIU 的知识空间
   # Home banner subtitle
@@ -113,7 +115,7 @@ home_banner:
     smart_backspace: true # Whether to smart backspace
   # Color of home banner text
   text_color:
-    light: "#e8e8e8" # light mode
+    light: "#323739" # light mode
     dark: "#e8e8e8" # dark mode
   # Specific style of the text
   text_style:
@@ -152,8 +154,8 @@ navbar:
   auto_hide: false
   # Navbar background color
   color:
-    left: "#ff9393" #left side
-    right: "#9bc0ff"  #right side
+    left: "#ff6b81" #left side
+    right: "#70a1ff"  #right side
     transparency: 80 #percent (10-99)
   # Navbar links
   links:
