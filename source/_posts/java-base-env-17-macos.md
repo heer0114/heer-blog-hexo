@@ -39,7 +39,7 @@ banner:
 
 1. 打开<i class="fa-solid fa-rectangle-terminal"></i>`Terminal`（中文叫`终端`）应用程序。
 
-2. 在命令行输入以下命令，编辑`~/.bash_profile`文件：
+2. 在命令行输入以下命令，编辑`~/.zshrc`文件：
 
    ```shell
    nano ~/.zshrc 
