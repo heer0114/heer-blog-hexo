@@ -9,7 +9,7 @@ disable-user-select() {
   position relative
 }
 
-.highlight-container:hover .copy-button, 
+.highlight-container:hover .copy-button,
 .highlight-container .copy-button:focus,
 .highlight-container:hover .fold-button,
 .highlight-container .fold-button:focus {
@@ -18,7 +18,7 @@ disable-user-select() {
 
 .fold-button {
   cursor pointer
-  border-radius 0 0 0 0 
+  border-radius 0 0 0 0
   display inline-block
   font-weight bold
   line-height 1.8
@@ -40,7 +40,7 @@ disable-user-select() {
 
 .copy-button {
   cursor pointer
-  border-radius 0 $redefine-border-radius-large 0 0 
+  border-radius 0 $redefine-border-radius-large 0 0
   display inline-block
   font-weight bold
   line-height 1.8
@@ -67,7 +67,7 @@ if (hexo-config('articles.code_block.style') == 'mac') {
   .highlight-container[data-rel]{
     background var(--third-background-color)
     border-radius $redefine-border-radius-large
-    box-shadow var(--redefine-box-shadow-flat) 
+    box-shadow var(--redefine-box-shadow-flat)
     padding-top 40px
     margin-top 10px
     margin-bottom 1.2rem
@@ -93,14 +93,15 @@ if (hexo-config('articles.code_block.style') == 'mac') {
       border-radius $redefine-border-radius-full
       box-shadow none
       height 12px
-      left 12px
+      //left 12px
+      //right 12px
       position absolute
       width auto
       margin-left 80px
       top 0
-      color var(--default-text-color)
+      color var(--first-text-color)
       font-weight bold
-      font-size 16px
+      font-size 14px
     }
 
 

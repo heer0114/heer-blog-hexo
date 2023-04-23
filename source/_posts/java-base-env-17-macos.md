@@ -1,5 +1,5 @@
 ---
-title: Java(17)环境配置- MacOS
+title: Java17环境配置- MacOS
 tags:
    - Java
    - Java 环境配置
@@ -9,17 +9,14 @@ categories:
    - Java 环境
 abbrlink: '21377094'
 date: 2021-04-20 19:32:10
-thumbnail:
-banner: imac-java-logo.webp
-#banner: 'https://images.idgesg.net/images/article/2019/05/java_binary_code_gears_programming_coding_development_by_bluebay2014_gettyimages-1040871468_2400x1600-100795798-large.jpg?auto=webp&quality=85,70'
+banner: 'java17-env-macos.svg'
 ---
 
 [^_^]: #('我是注释')
 
 [^_^]: # (![imac-java-logo.svg]&#40;imac-java-logo.webp&#41;)
 
-`Java 17`是一种新版本的Java开发环境，使用`Java 17`进行程序开发时需要在计算机上安装`Java 17`环境。本文将介绍如何在`MacOS`
-中配置`Java 17`环境。
+`Java 17`是一种新版本的Java开发环境，使用`Java 17`进行程序开发时需要在计算机上安装`Java 17`环境。本文将介绍如何在`MacOS`中配置`Java 17`环境。
 
 ## MacOS系统中配置Java 17环境：
 
@@ -36,7 +33,7 @@ banner: imac-java-logo.webp
 
 {% tabs First unique 01 %}
 
-<!-- tab macOS Catalina 10.15+（zsh） -->
+<!-- tab macOS 10.15+（zsh） -->
 
 1. 打开<i class="fa-solid fa-rectangle-terminal"></i>`Terminal`（中文叫`终端`）应用程序。
 
@@ -72,7 +69,7 @@ banner: imac-java-logo.webp
 
 <!-- endtab -->
 
-<!-- tab macOS Catalina 10.15之前（bash） -->
+<!-- tab macOS 10.15之前（bash） -->
 
 1. 打开<i class="fa-solid fa-rectangle-terminal"></i>`Terminal`（中文叫`终端`）应用程序。
 

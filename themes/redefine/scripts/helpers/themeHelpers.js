@@ -134,7 +134,5 @@ hexo.extend.helper.register('getThemeVersion', function () {
 
 hexo.extend.helper.register('isHttpUrl', function (url) {
   const pattern = /^(http|https):\/\//i;
-
-  console.log(pattern.test(url));
   return pattern.test(url);
 })

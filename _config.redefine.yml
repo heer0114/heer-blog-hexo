@@ -10,7 +10,7 @@
 # BASIC INFORMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 info:
   # Site title
-  title: HEER LIU的知识空间
+  title: 刘贺杰の知识宇宙
   # Author name
   author: Heer Liu
   # Site URL
@@ -92,7 +92,7 @@ fontawesome: # Pro v6.2.1
 # HOME BANNER >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 home_banner:
   # Whether to enable home banner
-  enable: true
+  enable: false
   # Home banner image
   image:
     light: /images/bg.svg # light mode
