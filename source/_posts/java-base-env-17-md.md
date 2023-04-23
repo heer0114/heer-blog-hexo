@@ -6,7 +6,7 @@ tags:
 categories:
   - Java
   - Java 基础
-  - Java 环境配置
+  - Java 环境
 abbrlink: 4027a16b
 date: 2021-04-20 19:32:10
 thumbnail:

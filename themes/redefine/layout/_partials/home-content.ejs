@@ -9,24 +9,27 @@
                     </div>
                 <% } %>
 
-                <% if (post.thumbnail && post.thumbnail == false) { %>
+                <% if (!post.thumbnail && !post.cover && !post.banner) { %>
 
-                <% } else if (post.thumbnail && post.thumbnail !== null) { %>
+                <% } else if (post.thumbnail) { %>
                     <div class="home-article-thumbnail">
                         <a href="<%- url_for(post.path) %>">
-                            <img src="<%- url_for(post.thumbnail) %>" alt="<%= post.title %>" />
+                            <img src="<%- isHttpUrl(post.thumbnail) ? url_for(post.thumbnail) : url_for(post.path) + post.thumbnail %>"
+                                 alt="<%= post.title %>"/>
                         </a>
                     </div>
-                <% } else if (post.cover && post.cover !== null && post.cover !== false) { %>
+                <% } else if (post.cover) { %>
                     <div class="home-article-thumbnail">
-                        <a href="<%- url_for(post.path) %>">
-                            <img src="<%- url_for(post.cover) %>" alt="<%= post.title %>" />
+                        <a href="<%- isHttpUrl(post.cover) ? url_for(post.cover) : post.cover %>">
+                            <img src="<%- isHttpUrl(post.cover) ? url_for(post.cover) : url_for(post.path) + post.cover %>"
+                                 alt="<%= post.title %>"/>
                         </a>
                     </div>
-                <% } else if (post.banner && post.banner !== null && post.banner !== false) { %>
+                <% } else if (post.banner) { %>
                     <div class="home-article-thumbnail">
                         <a href="<%- url_for(post.path) %>">
-                            <img src="<%- url_for(post.banner) %>" alt="<%= post.title %>" />
+                            <img src="<%- isHttpUrl(post.banner) ? url_for(post.banner) : url_for(post.path) + post.banner %>"
+                                 alt="<%= post.title %>"/>
                         </a>
                     </div>
                 <% } %>

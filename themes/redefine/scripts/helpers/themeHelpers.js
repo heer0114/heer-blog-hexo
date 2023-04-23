@@ -111,7 +111,7 @@ hexo.extend.helper.register('renderJS', function (path) {
 
 hexo.extend.helper.register('renderCSS', function (path) {
   const _css = hexo.extend.helper.get('css').bind(hexo);
-  
+
   if (this.theme.cdn.enable) {
     if (this.theme.cdn.provider == "unpkg") {
       return `<link rel="stylesheet" href="https://unpkg.com/hexo-theme-redefine@${themeVersion}/source/${path}">`;
@@ -131,3 +131,10 @@ hexo.extend.helper.register('renderCSS', function (path) {
 hexo.extend.helper.register('getThemeVersion', function () {
   return themeVersion;
 });
+
+hexo.extend.helper.register('isHttpUrl', function (url) {
+  const pattern = /^(http|https):\/\//i;
+
+  console.log(pattern.test(url));
+  return pattern.test(url);
+})

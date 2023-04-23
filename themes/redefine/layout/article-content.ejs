@@ -2,24 +2,22 @@
     <div class="post-page-container">
         <div class="article-content-container">
 
-
-            <% if (page.cover == false || page.banner == false) { %>
+            <% if (page.cover) { %>
                 <div class="article-title">
-                    <h1 class="article-title-regular"><%= page.title %></h1>
-                </div>
-            <% } else if (page.cover && page.cover !== null) { %>
-                <div class="article-title">
-                    <img src="<%= url_for(page.cover) %>" alt="<%= page.title %>" />
+                    <img src="<%- isHttpUrl(page.cover) ? url_for(page.cover) : url_for(page.path) + page.cover %>"
+                         alt="<%= page.title %>"/>
                     <h1 class="article-title-cover"><%= page.title %></h1>
                 </div>
-            <% } else if (page.banner && page.banner !== null) {%>
+            <% } else if (page.banner) { %>
                 <div class="article-title">
-                    <img src="<%= url_for(page.banner) %>" alt="<%= page.title %>" />
+                    <img src="<%- isHttpUrl(page.banner) ? url_for(page.banner) : url_for(page.path) + page.banner %>"
+                         alt="<%= page.title %>"/>
                     <h1 class="article-title-cover"><%= page.title %></h1>
                 </div>
-            <% } else if (page.thumbnail && page.thumbnail !== null && page.thumbnail !== false) {%>
+            <% } else if (page.thumbnail) { %>
                 <div class="article-title">
-                    <img src="<%= url_for(page.thumbnail) %>" alt="<%= page.title %>" />
+                    <img src="<%- isHttpUrl(page.thumbnail) ? url_for(page.thumbnail) : url_for(page.path) + page.thumbnail %>"
+                         alt="<%= page.title %>"/>
                     <h1 class="article-title-cover"><%= page.title %></h1>
                 </div>
             <% } else { %>
@@ -27,8 +25,6 @@
                     <h1 class="article-title-regular"><%= page.title %></h1>
                 </div>
             <% } %>
-
-
 
             <% if (theme.info.author || config.author) { %>
                 <div class="article-header">
@@ -82,8 +78,8 @@
                     <% if (page.prev) { %>
                         <div class="article-prev">
                             <a class="prev"
-                            rel="prev"
-                            href="<%= url_for(page.prev.path) %>"
+                               rel="prev"
+                               href="<%= url_for(page.prev.path) %>"
                             >
                                 <span class="left arrow-icon flex-center">
                                     <i class="fa-solid fa-chevron-left"></i>
@@ -98,8 +94,8 @@
                     <% if (page.next) { %>
                         <div class="article-next">
                             <a class="next"
-                            rel="next"
-                            href="<%= url_for(page.next.path) %>"
+                               rel="next"
+                               href="<%= url_for(page.next.path) %>"
                             >
                                 <span class="title flex-center">
                                     <span class="post-nav-title-item"><%= page.next.title %></span>
@@ -113,7 +109,6 @@
                     <% } %>
                 </div>
             <% } %>
-
 
             <% if (theme.comment.enable === true && theme.comment.hasOwnProperty('system')) { %>
                 <div class="comment-container">

@@ -1,21 +1,22 @@
 ---
-title: Java环境配置（Java17）- MacOS
+title: Java(17)环境配置- MacOS
 tags:
-  - Java
-  - Java 环境配置
+   - Java
+   - Java 环境配置
 categories:
-  - Java
-  - Java 基础
-  - Java 环境配置
+   - Java
+   - Java 基础
+   - Java 环境
 abbrlink: '21377094'
 date: 2021-04-20 19:32:10
 thumbnail:
-banner:
+banner: imac-java-logo.webp
+#banner: 'https://images.idgesg.net/images/article/2019/05/java_binary_code_gears_programming_coding_development_by_bluebay2014_gettyimages-1040871468_2400x1600-100795798-large.jpg?auto=webp&quality=85,70'
 ---
 
 [^_^]: #('我是注释')
 
-![imac-java-logo.svg](imac-java-logo.webp)
+[^_^]: # (![imac-java-logo.svg]&#40;imac-java-logo.webp&#41;)
 
 `Java 17`是一种新版本的Java开发环境，使用`Java 17`进行程序开发时需要在计算机上安装`Java 17`环境。本文将介绍如何在`MacOS`
 中配置`Java 17`环境。

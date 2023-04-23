@@ -1,6 +1,7 @@
 .category-list-container {
 
   redefine-container(false, 0, 0, 30px, 0)
+  font-family "Optima Bold", sans-serif
 
   .category-list-content {
 
@@ -10,7 +11,7 @@
       flex-wrap wrap
 
       li.all-category-list-item {
-        font-size 1.2rem
+        font-size 1em
         margin-bottom 15px
         box-shadow var(--redefine-box-shadow-flat)
         padding 10px
@@ -78,9 +79,11 @@
           }
         }
       }
-
-
     }
-
+    ul.all-category-list > li > a {
+      font-size 1.5rem !important
+      font-weight bold
+    }
   }
+
 }
