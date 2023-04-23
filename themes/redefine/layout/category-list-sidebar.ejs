@@ -6,11 +6,49 @@
         </div>
     </div>
     <div class="sidebar-category-list-content">
-        <%- list_categories(site.categories, {
+        <%- heer_list_categories(site.categories, {
             class: 'sidebar-all-category',
             depth: 3,
             orderby: "name",
             order: 1
         }) %>
     </div>
+
+    <script async <%= theme.global.pjax === true ? 'data-pjax' : '' %>>
+      const categoryItems = document.querySelectorAll('ul.sidebar-all-category-list li.sidebar-all-category-list-item');
+      categoryItems.forEach((item, i) => {
+        const itemI = item.querySelector('i.fa-book-open');
+        // 绑定点击事件
+        itemI.addEventListener('click', e => {
+          const ul = item.querySelector('li.sidebar-all-category-list-item > ul');
+          // 这里为空说明是最后一级了
+          if (!ul) return;
+          // 获取css 属性
+          const ulStyle = getComputedStyle(ul) || document.defaultView.getComputedStyle(ul);
+          // 展开 / 隐藏
+          if (ulStyle.display === 'none') {
+            // 修改css属性
+            itemI.style.setProperty('color', 'var(--primary-color)');
+            ul.style.setProperty('display', 'block');
+          } else {
+            itemI.style.setProperty('color', 'var(--first-text-color)');
+            ul.style.setProperty('display', 'none');
+            // 父级关闭的同时关闭子级
+            // 查询是否还有子级
+            const sonUl = ul.querySelectorAll('li.sidebar-all-category-list-item ul');
+            // 关闭子级
+            sonUl.forEach(son => {
+              son.style.setProperty('display', 'none');
+            })
+            const sonI = ul.querySelectorAll('li.sidebar-all-category-list-item i');
+            console.log(sonI);
+            sonI.forEach(son => {
+              son.style.setProperty('color', 'var(--first-text-color)');
+            })
+          }
+          // 阻止冒泡事件
+          e.stopPropagation();
+        });
+      });
+    </script>
 </div>

@@ -14,12 +14,12 @@
       animation ani01 1.5s
 
       .sidebar-all-category-list-link {
-
-        &::before {
-          padding-right 5px
-          font-family "Font Awesome 6 Pro"
-          content "\e0c0";
-        }
+        //&::before {
+        //  padding-right 5px
+        //  font-family "Font Awesome 6 Pro"
+        //  content "\e0c0"
+        //  font-size 0.7rem!important
+        //}
       }
 
       &:hover,
@@ -30,9 +30,9 @@
         transition all .2s cubic-bezier(0.4, 0, 1, 1)
       }
 
-      &:active {
-        transform scale(0.98)
-      }
+      //&:active {
+      //  transform scale(0.98)
+      //}
 
       span.sidebar-all-category-list-count {
         display inline-flex
@@ -50,20 +50,66 @@
       }
 
       ul.sidebar-all-category-list-child {
+        display none
         li {
-          margin-bottom 10px
+          margin-bottom 5px
         }
       }
 
-      //ul:last-child > li > ul:last-child {
-      //  text-align center
-      //}
+      ul:last-child > li > ul:last-child .fa-book-open {
+        //text-align center
+        &:hover {
+          color: var(--first-text-color)
+        }
+        &:hover .tooltiptext {
+          visibility hidden
+        }
+      }
     }
   }
 
   ul.sidebar-all-category-list > li > a {
-    font-size 1rem !important
+    font-size 1em !important
     font-weight bold
+  }
+
+  ul.sidebar-all-category-list i.fa-book-open {
+    margin-right 5px
+    font-size .95em
+
+    &:hover {
+      color: var(--primary-color)
+    }
+    &:hover .tooltiptext {
+      visibility visible
+    }
+  }
+
+  ul.sidebar-all-category-list i.fa-book-open > .tooltiptext {
+    visibility hidden
+    width 30px
+    background-color: var(--shadow-hover-color)
+    color var(--shadow-hover-color)
+    text-align center
+    border-radius 6px
+    padding 2px 0
+    position absolute
+    z-index 1
+    bottom 150%
+    //left: -154%;
+    margin-left -8px
+    font-size .7em
+
+    &::after {
+      content ""
+      position absolute
+      top 100%
+      left 50%
+      margin-left -5px
+      border-width 5px
+      border-style solid
+      border-color var(--shadow-hover-color) transparent transparent transparent
+    }
   }
 }
 
