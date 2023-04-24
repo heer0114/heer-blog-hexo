@@ -14,8 +14,6 @@ banner: 'java17-env-macos.svg'
 
 [^_^]: #('我是注释')
 
-[^_^]: # (![imac-java-logo.svg]&#40;imac-java-logo.webp&#41;)
-
 `Java 17`是一种新版本的Java开发环境，使用`Java 17`进行程序开发时需要在计算机上安装`Java 17`环境。本文将介绍如何在`MacOS`中配置`Java 17`环境。
 
 ## MacOS系统中配置Java 17环境：
