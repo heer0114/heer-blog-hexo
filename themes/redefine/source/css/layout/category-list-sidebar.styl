@@ -57,15 +57,14 @@
         }
       }
 
-      ul:last-child > li > ul:last-child .fa-book-open {
-        &:hover {
-          color: var(--first-text-color)
-        }
-
-        &:hover .tooltiptext {
-          visibility hidden
-        }
-      }
+      //ul:last-child > li > ul:last-child .fa-book-open {
+      //  //&:hover {
+      //  //  color: var(--first-text-color)
+      //  //}
+      //  //&:hover .tooltiptext {
+      //  //  visibility hidden
+      //  //}
+      //}
     }
   }
 
@@ -90,8 +89,8 @@
   ul.sidebar-all-category-list i.fa-book-open > .tooltiptext {
     visibility hidden
     width 30px
-    background-color: var(--shadow-hover-color)
-    color var(--shadow-hover-color)
+    background-color: var(--first-text-color)
+    color var(--selection-color)
     text-align center
     border-radius 6px
     padding 2px 0
@@ -110,7 +109,7 @@
       margin-left -5px
       border-width 5px
       border-style solid
-      border-color var(--shadow-hover-color) transparent transparent transparent
+      border-color var(--first-text-color) transparent transparent transparent
     }
   }
 }

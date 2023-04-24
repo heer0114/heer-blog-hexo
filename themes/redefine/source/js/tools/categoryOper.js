@@ -4,10 +4,16 @@ Global.initCategoryClick = () => {
     const itemI = item.querySelector('i.fa-book-open');
     // 绑定点击事件
     itemI.addEventListener('click', e => {
-      console.log("itemI: " + itemI);
       const ul = item.querySelector('li.sidebar-all-category-list-item > ul');
       // 这里为空说明是最后一级了
       if (!ul) return;
+      const ulChild = ul.querySelector('li > ul');
+      if (!ulChild) {
+        // 再往下就没有了
+        ul.querySelectorAll('.tooltiptext').forEach((ele, i) => {
+          ele.innerText = '无了';
+        });
+      }
       // 获取css 属性
       const ulStyle = getComputedStyle(ul) || document.defaultView.getComputedStyle(ul);
       // 展开 / 隐藏
