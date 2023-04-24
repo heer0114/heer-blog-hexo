@@ -200,7 +200,7 @@ home:
   # Sidebar settings
   sidebar:
     enable: true # Whether to enable sidebar
-    position: left # Sidebar position. left, right
+    position: right # Sidebar position. left, right
     announcement: 'To be a better man.'# Announcement text
     # ...... # you can add more
   # Article date format
