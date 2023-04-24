@@ -14,7 +14,7 @@ info:
   # Author name
   author: Heer Liu
   # Site URL
-  url: http://localhost:4000
+  url: https://blog.heer.love
 #  url: https://heer0114.github.io
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
@@ -22,9 +22,10 @@ info:
 # IMAGE CONFIGURATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 defaults:
   # Favicon
-  favicon: /images/redefine-favicon.svg
+  favicon: /images/logo_fav.svg
+  logo: /images/logo.svg
   # Site avatar
-  avatar: /images/redefine-avatar.svg
+  avatar: /images/rocket.svg
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
