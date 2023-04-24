@@ -1,5 +1,8 @@
 Global.initCopyCode = () => {
   HTMLElement.prototype.wrap = function (wrapper) {
+
+    console.log(this);
+
     this.parentNode.insertBefore(wrapper, this);
     this.parentNode.removeChild(this);
     wrapper.appendChild(this);
@@ -16,7 +19,7 @@ Global.initCopyCode = () => {
     copyButton.addEventListener('click', () => {
       const codeLines = [...container.querySelectorAll('.code .line')];
       const code = codeLines.map(line => line.innerText).join('\n');
-      
+
       // Copy code to clipboard
       navigator.clipboard.writeText(code);
 

@@ -46,7 +46,6 @@ function heer_list_categories(categories, options) {
       let child;
       if (!depth || level + 1 < depth) {
         child = hierarchicalList(level + 1, cat._id);
-        console.log(child);
       }
 
       let isCurrent = false;
@@ -113,6 +112,4 @@ function heer_list_categories(categories, options) {
   }
   return flatList(0);
 }
-
-
 hexo.extend.helper.register("heer_list_categories", heer_list_categories);

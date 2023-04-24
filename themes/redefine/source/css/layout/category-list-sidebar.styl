@@ -3,13 +3,13 @@
   .sidebar-all-category-list {
 
     li.sidebar-all-category-list-item {
-      font-size .96em
+      //font-size .98em
       margin-bottom 5px
       box-shadow var(--redefine-box-shadow-flat)
       padding 4px 15px
       border-radius $redefine-border-radius-medium
       margin-top 8px
-      transition all 0.2s ease
+      //transition all 0.2s ease
       cursor pointer
       animation ani01 1.5s
 
@@ -51,16 +51,17 @@
 
       ul.sidebar-all-category-list-child {
         display none
+
         li {
           margin-bottom 5px
         }
       }
 
       ul:last-child > li > ul:last-child .fa-book-open {
-        //text-align center
         &:hover {
           color: var(--first-text-color)
         }
+
         &:hover .tooltiptext {
           visibility hidden
         }
@@ -68,10 +69,10 @@
     }
   }
 
-  ul.sidebar-all-category-list > li > a {
-    font-size 1em !important
-    font-weight bold
-  }
+  //ul.sidebar-all-category-list > li > a {
+  //  font-size 1em !important
+  //  font-weight bold
+  //}
 
   ul.sidebar-all-category-list i.fa-book-open {
     margin-right 5px
@@ -80,6 +81,7 @@
     &:hover {
       color: var(--primary-color)
     }
+
     &:hover .tooltiptext {
       visibility visible
     }
@@ -98,7 +100,7 @@
     bottom 150%
     //left: -154%;
     margin-left -8px
-    font-size .7em
+    font-size .8em
 
     &::after {
       content ""
@@ -113,6 +115,7 @@
   }
 }
 
+// 侧边栏 <i> 动画
 @keyframes ani01 {
   0% {
     opacity: 0;

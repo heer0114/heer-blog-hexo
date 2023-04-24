@@ -65,8 +65,9 @@ window.addEventListener('DOMContentLoaded', () => {
     if (Global.theme_config.articles.lazyload === true) {
       Global.initLazyLoad();
     }
+    Global.initCategoryClick();
   }
 
-  Global.printThemeInfo();
+  // Global.printThemeInfo();
   Global.refresh();
 });
