@@ -23,6 +23,8 @@
 
   .sidebar-content {
     redefine-container(false, 1.02, 1.02, 20px, 0)
+    background: url('/images/sidebar_bg.svg') no-repeat center fixed;
+    background-size: cover;
 
     &[marginTop] {
       margin-top $spacing-unit * 0.6
@@ -39,9 +41,12 @@
         box-shadow var(--redefine-box-shadow-flat)
         border 1px solid var(--border-color)
         padding 1px
+        -webkit-backdrop-filter blur(88px)
+        backdrop-filter blur(88px)
+        background var(--sidebar-site-bg-color)
 
         &:hover {
-          box-shadow var(--redefine-box-shadow)
+          box-shadow var(--redefine-box-shadow-flat-hover)
         }
       }
 
@@ -71,6 +76,16 @@
       display flex
       justify-content space-around
       margin 10px 0
+      box-shadow var(--redefine-box-shadow-flat)
+      border 1px solid var(--border-color)
+      padding 1px
+      border-radius 18px
+      -webkit-backdrop-filter blur(88px)
+      backdrop-filter blur(88px)
+      background var(--sidebar-site-bg-color)
+      &:hover {
+        box-shadow var(--redefine-box-shadow-flat-hover)
+      }
 
       .item {
         display flex

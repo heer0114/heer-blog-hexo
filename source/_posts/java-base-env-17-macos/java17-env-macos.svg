@@ -17,49 +17,49 @@
         </path>
     </g>
 
-    <rect x="1200" y="400" rx="40" ry="40" width="300" height="300" stroke="rgb(129, 201, 149)"
-          fill="rgb(129, 201, 149)">
-    </rect>
-
-<!--    <path d="M 100 350 A 150 150 0 1 1 400 350 Q400 370 380 370 L 250 370 L 120 370 Q100 370 100 350"-->
-<!--          stroke="rgb(253, 214, 99)" fill="rgb(253, 214, 99)">-->
-<!--    </path>-->
-
-    <circle cx="700" cy="200" r="20" stroke="#1a73e8" fill="#1a73e8">
+    <circle cx="1200" cy="555" r="99" fill="#00CCFF">
     </circle>
 
-    <!-- 三角形 -->
-    <path d="M 165 580 L 270 580 Q275 578 270 570 L 223 483 Q220 480 217 483 L 165 570 Q160 578 165 580"
-          stroke="rgb(238, 103, 92)" fill="rgb(238, 103, 92)">
-    </path>
-
-    <circle cx="1200" cy="600" r="30" stroke="rgb(241, 243, 244)" fill="rgb(241, 243, 244)">
+    <circle cx="600" cy="250" r="20" fill="#9900CC">
     </circle>
 
-    <circle cx="800" cy="460" r="20" stroke="#ff6b81" fill="#ff6b81">
+    <circle cx="860" cy="500" r="30" fill="rgb(241, 243, 244)">
     </circle>
 
-    <rect x="400" y="500" rx="40" ry="40" width="100" height="100" stroke="rgb(129, 201, 149)"
-          fill="rgb(129, 201, 149)">
-    </rect>
+    <circle cx="600" cy="500" r="15" fill="#FFFF99">
+    </circle>
 
-    <rect x="1000" y="200" rx="40" ry="40" width="100" height="100" stroke="rgb(129, 201, 149)" fill="#00CCFF">
-    </rect>
+    <circle cx="1111" cy="300" r="15" fill="#FFFF99">
+    </circle>
 
-    <text font-size="66" fill="#EEEEEE" font-weight="bold" stroke="#EEEEEE" stroke-width="3">
+    <circle cx="870" cy="100" r="5" fill="rgb(241, 243, 244)">
+    </circle>
+
+    <circle cx="860" cy="300" r="8" fill="#00FF99">
+    </circle>
+
+    <circle cx="1200" cy="100" r="6" fill="#FFFF99">
+    </circle>
+
+    <circle cx="560" cy="50" r="5" fill="#00D1F2">
+    </circle>
+
+    <circle cx="430" cy="600" r="5" fill="#FFFF99">
+    </circle>
+
+    <text font-size="66" fill="#EEEEEE" font-weight="bold">
         <tspan x="880" y="460">
             MacOS
         </tspan>
     </text>
 
-    <text font-size="66" fill="#00BF35" font-weight="bold" stroke="#00BF35" stroke-width="2">
-        <tspan x="660" y="420">
-            环境
+    <text transform="rotate(-30)" font-size="66" fill="#FFFF66" font-weight="bold">
+        <tspan x="360" y="720">
+            环境配置
         </tspan>
-        <!--        <animateMotion path="M 0 0 L -20 40 Z" dur="6s" repeatCount="indefinite"/>-->
     </text>
 
-    <text font-size="66" fill="#ff6b81" font-weight="bold" stroke="#ff6b81" stroke-width="3">
+    <text font-size="66" fill="#ff6b81" font-weight="bold">
         <tspan x="360" y="380">
             Java 17
         </tspan>

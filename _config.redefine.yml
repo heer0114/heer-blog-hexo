@@ -23,9 +23,9 @@ info:
 defaults:
   # Favicon
   favicon: /images/logo_fav.svg
-  logo: /images/logo.svg
+  logo: /images/logo_fav.svg
   # Site avatar
-  avatar: /images/rocket.svg
+  avatar: /images/astronaut.svg
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 

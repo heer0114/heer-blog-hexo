@@ -5,7 +5,6 @@
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1400 800"
 >
-
     <g id="star" transform="translate(0, 120)">
         <path id="XMLID_40_"
               fill="#996600"
@@ -17,32 +16,38 @@
         </path>
     </g>
 
-    <rect x="1200" y="400" rx="40" ry="40" width="300" height="300" stroke="rgb(129, 201, 149)"
-          fill="rgb(129, 201, 149)">
-    </rect>
 
-    <circle cx="600" cy="250" r="20" stroke="#9900CC" fill="#9900CC">
+    <circle cx="1200" cy="555" r="99" fill="#00CCFF">
     </circle>
 
-    <!-- 三角形 -->
-    <path d="M 165 580 L 270 580 Q275 578 270 570 L 223 483 Q220 480 217 483 L 165 570 Q160 578 165 580"
-          stroke="rgb(238, 103, 92)" fill="rgb(238, 103, 92)" transform="rotate(30, 180 360)">
-    </path>
-
-    <circle cx="960" cy="580" r="30" stroke="rgb(241, 243, 244)" fill="rgb(241, 243, 244)">
+    <circle cx="600" cy="250" r="20" fill="#9900CC">
     </circle>
 
-    <circle cx="800" cy="460" r="20" stroke="#FFFF99" fill="#FFFF99">
+    <circle cx="960" cy="500" r="30" fill="rgb(241, 243, 244)">
     </circle>
 
-    <rect x="400" y="500" rx="40" ry="40" width="100" height="100" stroke="rgb(129, 201, 149)"
-          fill="rgb(129, 201, 149)">
-    </rect>
+    <circle cx="600" cy="500" r="15" fill="#FFFF99">
+    </circle>
 
-    <rect x="1000" y="200" rx="40" ry="40" width="100" height="100" stroke="rgb(129, 201, 149)" fill="#00CCFF">
-    </rect>
+    <circle cx="1111" cy="300" r="15" fill="#FFFF99">
+    </circle>
 
-    <text transform="rotate(30, 1100 360)" font-size="66" fill="#00FF00" font-weight="bold" stroke="#00FF00"
+    <circle cx="870" cy="100" r="5" fill="rgb(241, 243, 244)">
+    </circle>
+
+    <circle cx="860" cy="300" r="8" fill="#00FF99">
+    </circle>
+
+    <circle cx="1200" cy="100" r="6" fill="#FFFF99">
+    </circle>
+
+    <circle cx="560" cy="50" r="5" fill="#00D1F2">
+    </circle>
+
+    <circle cx="430" cy="600" r="5" fill="#FFFF99">
+    </circle>
+
+    <text transform="rotate(30, 1100 360)" font-size="66" fill="#00FF00" font-weight="bold"
           stroke-width="3">
         <tspan x="860" y="460">
             一目了然
@@ -55,7 +60,7 @@
         </tspan>
     </text>
 
-    <text font-size="66" fill="#ff6b81" font-weight="bold" stroke="#ff6b81" stroke-width="3">
+    <text font-size="66" fill="#ff6b81" font-weight="bold">
         <tspan x="600" y="420">
             Java 8
         </tspan>
