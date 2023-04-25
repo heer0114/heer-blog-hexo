@@ -69,7 +69,7 @@ global:
     enable: true # enable website counter or not
     site_pv: true # site page view
     site_uv: true # site unique visitor
-    post_pv: false # post page view
+    post_pv: true # post page view
   # Whether to enable PJAX
   pjax: true
   # Whether to enable open graph
