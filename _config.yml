@@ -136,7 +136,7 @@ theme: redefine-heer
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:heer0114/heer-blog.git
+  repo: git@github.com:heer0114/heer-blog-code.git
   branch: master
 
 # all_minifier
