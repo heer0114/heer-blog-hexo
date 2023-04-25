@@ -9,7 +9,7 @@ categories:
    - Java 环境
 abbrlink: '21377094'
 date: 2021-04-20 19:32:10
-#banner: 'java17-env-macos.svg'
+banner: 'java17-env-macos.svg'
 ---
 
 [^_^]: #('我是注释')
