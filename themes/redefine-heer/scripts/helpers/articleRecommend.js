@@ -27,11 +27,20 @@ function 获取数据(s, cfg) {
       文章库.push({
         path: p.path,
         title: p.title || p.seo_title || p.short_title,
-        headimg: p.thumbnail || p.banner || p.cover || cfg.placeholder,
+        headimg: getHeadimg(p, cfg),
       })
       语料库.push(分词(p.raw))
     }
   })
+}
+
+function getHeadimg(p, cfg) {
+  const imgUrl = p.thumbnail || p.banner || p.cover || cfg.placeholder;
+  const pattern = /^(\/images|http:|https:)/;
+  if (pattern.test(imgUrl)) {
+    return imgUrl;
+  }
+  return "/" + p.path + imgUrl;
 }
 
 function 数据清洗(数据) {
@@ -163,8 +172,8 @@ hexo.extend.helper.register('文章推荐生成器', function (post) {
   }
   const 推荐集 = hexo.locals.get('推荐集');
   const 推荐文章 = 推荐集[post.path];
-  //console.log(post.path);
-  //console.log(推荐文章);
+  // console.log(post.path);
+  // console.log(推荐文章);
   return 用户界面(推荐文章, cfg);
 });
 

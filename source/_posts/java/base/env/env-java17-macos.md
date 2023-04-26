@@ -14,18 +14,18 @@ banner: 'java17-env-macos.svg'
 
 [^_^]: #('我是注释')
 
-`Java 17`是一种新版本的Java开发环境，使用`Java 17`进行程序开发时需要在计算机上安装`Java 17`环境。本文将介绍如何在`MacOS`中配置`Java 17`环境。
+Java 17 是一种新版本的Java开发环境，使用 Java 17 进行程序开发时需要在计算机上安装 Java 17 环境。本文将介绍如何在 MacOS 中配置 Java 17环境。
 
 ## MacOS系统中配置Java 17环境：
 
 ### 1. 下载Java 17安装包。
 
-在[Oracle官网](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)上下载`Java 17`
+在[Oracle官网](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)上下载 Java 17
 的安装包，选择与MacOS系统相应的版本。
 
-### 2. 安装`Java 17`。
+### 2. 安装 Java 17。
 
-双击下载好的`Java 17`安装包，按照步骤进行安装即可。
+双击下载好的 Java 17 安装包，按照步骤进行安装即可。
 
 ### 3. 配置环境变量。
 
