@@ -148,7 +148,7 @@
     <text transform="rotate(30, 1100 360)" font-size="66" fill="#00FF00" font-weight="bold"
           stroke-width="3">
         <tspan x="860" y="460">
-            基本原理
+            hash() 解析
         </tspan>
     </text>
 

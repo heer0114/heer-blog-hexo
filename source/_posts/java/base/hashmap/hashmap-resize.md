@@ -9,7 +9,7 @@ categories:
   - HashMap
 abbrlink: 80dd519a
 date: 2020-05-11 21:00:46
-banner:
+banner: java8-hashmap-resize.svg
 ---
 
 在 Java 中，HashMap 是一个非常重要的集合类，它采用哈希表来存储键值对。当数据量变大时，需要调整哈希表的大小，以保证更好的性能和空间使用。resize() 方法就是 HashMap 进行扩容或缩减容量的方法。

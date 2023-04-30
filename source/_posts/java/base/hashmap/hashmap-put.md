@@ -9,7 +9,7 @@ categories:
   - HashMap
 abbrlink: 80dd519a
 date: 2020-05-11 21:38:19
-banner:
+banner: java8-hashmap-put.svg
 ---
 
 在 Java 8 中，HashMap 是一种常见的数据结构，用于存储键值对。put() 方法是其中最常用且最重要的方法之一。本文将详细介绍 Java 8 HashMap 的 put() 方法。

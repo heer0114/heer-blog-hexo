@@ -7,9 +7,9 @@ categories:
   - Java
   - Java 基础
   - HashMap
-banner:
 abbrlink: c0f9b6a9
 date: 2020-05-11 20:10:08
+banner: java8-hashmap-hash.svg
 ---
 
 在Java编程中，HashMap是一个重要的数据结构，它可以方便地存储和访问键值对。其中，hash()方法是HashMap实现中的关键部分之一。在本篇博文中，我们将对Java8中的HashMap hash()方法进行解析。
