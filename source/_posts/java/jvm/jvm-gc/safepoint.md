@@ -5,7 +5,6 @@ tags:
   - JVM
   - GC
 categories:
-  - Java
   - JVM
   - GC
 abbrlink: 5a9ba959

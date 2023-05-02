@@ -5,7 +5,6 @@ tags:
   - HashMap
 categories:
   - Java
-  - Java 基础
   - HashMap
 banner: java8-hashmap-title.svg
 abbrlink: fcb831a5

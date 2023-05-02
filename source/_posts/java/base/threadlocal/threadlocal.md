@@ -1,11 +1,10 @@
 ---
-title: ThreadLocal
+title: ThreadLocal 基础使用
 tags:
   - Java
   - ThreadLocal
 categories:
   - Java
-  - Java 基础
   - ThreadLocal
 abbrlink: 151f44ae
 date: 2020-05-21 19:10:10

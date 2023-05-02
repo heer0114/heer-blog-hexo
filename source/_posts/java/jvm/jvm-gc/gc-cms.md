@@ -5,7 +5,6 @@ tags:
   - JVM
   - GC
 categories:
-  - Java
   - JVM
   - GC
 abbrlink: d20aa128

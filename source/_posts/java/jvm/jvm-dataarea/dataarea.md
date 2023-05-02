@@ -4,7 +4,6 @@ tags:
   - JVM
   - 运行时数据区
 categories:
-  - Java
   - JVM
   - 数据区
 abbrlink: 243280dc

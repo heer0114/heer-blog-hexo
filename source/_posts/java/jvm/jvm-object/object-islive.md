@@ -5,7 +5,6 @@ tags:
   - JVM
   - Java 对象
 categories:
-  - Java
   - JVM
   - Java 对象
 abbrlink: 6a10d920
