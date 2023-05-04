@@ -49,13 +49,14 @@ spring:
         prefix: demo-config # 配置文件前缀
         file-extension: yml # 配置文件扩展名，可选
 
-# 使用 option 属性配置不同类型和环境的配置文件
-spring.config.imports: 
-  - nacos:${spring.cloud.nacos.config.prefix}.${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
-  - nacos:${spring.cloud.nacos.config.prefix}.${spring.cloud.nacos.config.file-extension}
+# 使用 optional 属性配置不同类型和环境的配置文件
+  config:
+    import:
+    - optional:nacos:${spring.cloud.nacos.config.prefix}.${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+    - optional:nacos:${spring.cloud.nacos.config.prefix}.${spring.cloud.nacos.config.file-extension}
 ```
 
-在这个示例中，使用 `spring.config.imports` 属性的 `option` 属性来加载不同类型和环境的配置文件。`${spring.cloud.nacos.config.prefix}` 表示从 Nacos 中加载的配置文件的前缀，`${spring.profiles.active}` 表示当前激活的 profile，`${spring.cloud.nacos.config.file-extension}` 表示配置文件的扩展名。
+在这个示例中，使用 `spring.config.import` 属性的 `optional` 属性来加载不同类型和环境的配置文件（指定 nacos 的 DataId）。`${spring.cloud.nacos.config.prefix}` 表示从 Nacos 中加载的配置文件的前缀，`${spring.profiles.active}` 表示当前激活的 profile，`${spring.cloud.nacos.config.file-extension}` 表示配置文件的扩展名。
 
 首先，它会尝试加载 `demo-config.dev.yml`，如果找不到，则尝试加载 `demo-config.yml`。
 
