@@ -40,8 +40,8 @@ Spring AOP 的实现方式主要有两种：XML配置文件和注解。下面我
 
 下面是一个简单的 XML 配置文件示例：
 
-```
-xml复制代码<?xml version="1.0" encoding="UTF-8"?>
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:aop="http://www.springframework.org/schema/aop"

@@ -120,10 +120,7 @@ public class NacosConfigListenerDemo {
 
 在获取到配置信息后，我们可以通过以下代码来更新配置信息：
 
-```
-java复制代码import com.alibaba.nacos.api.config.ConfigService;
-import com.alibaba.nacos.api.exception.NacosException;
-
+```java
 public class NacosUpdateConfigDemo {
 
     public static void main(String[] args) throws NacosException {
@@ -154,10 +151,7 @@ public class NacosUpdateConfigDemo {
 
 在获取到配置信息后，我们也可以通过以下代码来删除配置信息：
 
-```
-java复制代码import com.alibaba.nacos.api.config.ConfigService;
-import com.alibaba.nacos.api.exception.NacosException;
-
+```java
 public class NacosDeleteConfigDemo {
 
     public static void main(String[] args) throws NacosException {
