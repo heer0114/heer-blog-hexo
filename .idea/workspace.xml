@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="300a4280-5a73-4561-8b94-53aaf98c9c42" name="更改" comment="修复推荐文章 顶部图片显示不出了的问题 &amp; add posts">
-      <change beforePath="$PROJECT_DIR$/source/_posts/nacos/demo/config-demo-springboot.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/nacos/demo/config-demo-springboot.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.redefine-heer.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.redefine.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +35,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
   <component name="ProjectId" id="2OXjWyZ9nJbk4HTjRJwB5ftR3NF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -106,6 +114,7 @@
       <workItem from="1682934659049" duration="828000" />
       <workItem from="1683017597720" duration="120000" />
       <workItem from="1683200736909" duration="844000" />
+      <workItem from="1697956452366" duration="586000" />
     </task>
     <task id="LOCAL-00001" summary="添加文档">
       <created>1681751966586</created>
