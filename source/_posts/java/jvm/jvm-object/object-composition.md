@@ -7,7 +7,7 @@ tags:
 categories:
   - JVM
   - Java 对象
-abbrlink: dcb2c325
+abbrlink: 581a85f5
 date: 2020-06-02 20:55:10
 banner:
 ---
